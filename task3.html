@@ -1,0 +1,70 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .container{
+            width: 100%;
+            margin: 0 auto;
+        }
+        body{
+            background-color: aliceblue;
+        }
+        .head{
+            text-align: center;
+            padding: 1px;
+            background-color: black;
+            color: aliceblue;
+            width: 100%;
+            
+        }
+        .side{
+            padding:1px;
+            background-color: rgb(236, 219, 219);
+            width:20%;
+            margin:0;
+            float: left;
+            box-sizing: border-box;
+
+        }
+        .main{
+            background-color: rgb(215, 229, 229);
+            width: 80%;
+            padding: 1px;
+            float: left;
+            box-sizing: border-box;
+            
+        }
+        .footer{
+            clear: both;
+            padding: 10px;
+            text-align: center;
+            background-color: blueviolet;
+        }
+        @media (max-width: 760px)
+        {
+            .side, .main{
+                width:100%;
+                float:none;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="head">
+    <h1>Main Heading</h1>
+</div>
+<div class="side">
+    <h1>Side bar</h1>
+</div>
+<div class="main"><h1> Main Content</h1></div>
+
+<div class="footer">
+    <h1>Footer</h1>
+</div>
+</div>
+    
+</body>
+</html>
